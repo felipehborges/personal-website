@@ -2,7 +2,7 @@
 
 ## Welcome! 👋🏽
 
-This is my personal website and portfolio, showcasing my skills and projects.
+This is my personal website and portfolio, showcasing my skills and projects (in progress).
 
 ### Technologies Used
 
@@ -12,8 +12,28 @@ This is my personal website and portfolio, showcasing my skills and projects.
 
 ### Features
 
-- Majority of the components are custom-made.
 - Modern, responsive design.
 - Easy navigation and contact options.
 
-Feel free to explore my projects and get in touch with me for any inquiries or collaborations!
+Feel free to explore and get in touch with me for any inquiries or collaborations!
+
+---
+
+# Website Pessoal
+
+## Bem-vindo! 👋🏽
+
+Este é o meu site pessoal e portfólio, mostrando minhas habilidades e projetos (em andamento).
+
+### Tecnologias Usadas
+
+- **React (Vite)**
+- **TypeScript**
+- **Tailwind CSS**
+
+### Funcionalidades
+
+- Design moderno e responsivo.
+- Navegação fácil e opções de contato.
+
+Sinta-se à vontade para explorar e entrar em contato comigo para qualquer dúvida ou colaboração!

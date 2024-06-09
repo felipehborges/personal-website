@@ -1,5 +1,7 @@
+import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 export default function Home() {
   const [t, i18n] = useTranslation("global");
@@ -19,19 +21,19 @@ export default function Home() {
 
   return (
     <div className={`${darkMode && "dark"}`}>
-      <div className="w-screen h-screen flex flex-col gap-4 justify-center items-center dark:bg-zinc-900">
+      <div className="w-full h-full flex flex-col gap-4 justify-center items-center dark:bg-zinc-900">
         <h1 className="font-bold text-2xl dark:text-zinc-100">
           {t("header.message")}
         </h1>
         <p className="dark:text-zinc-100">{t("body.message")}</p>
 
-        <button className="text-xl" onClick={toggleLanguage}>
-          {language === "en" ? "🇧🇷" : ""}
-        </button>
+        <Button variant={"default"} onClick={toggleLanguage}>
+          {language === "en" ? "PT-BR" : "EN"}
+        </Button>
 
-        <button className="p-4 rounded-lg bg-red-200" onClick={toggleDarkMode}>
-          {darkMode ? "LIGHT MODE" : "DARK MODE"}
-        </button>
+        <Button size={"icon"} onClick={toggleDarkMode}>
+          {darkMode ? <MdOutlineLightMode /> : <MdOutlineDarkMode />}
+        </Button>
       </div>
     </div>
   );
