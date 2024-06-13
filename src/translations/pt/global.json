@@ -1,6 +1,10 @@
 {
   "header": {
-    "message": "Olá, mundo!"
+    "home": "Olá, mundo!",
+    "about": "Sobre mim",
+    "contact": "Contato",
+    "portfolio": "Portfólio",
+    "hireMe": "Contrate-me"
   },
   "body": {
     "message": "Bem-vindo ao meu site!"
